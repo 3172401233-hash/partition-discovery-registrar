@@ -1,0 +1,14 @@
+{
+  "name": "partition-discovery-registrar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "分区发现与目录登记库：解析 Hive 风格对象路径，仅在文件集合完整且 schema 版本可确定时登记分区",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
